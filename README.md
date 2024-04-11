@@ -1,1 +1,2 @@
 # Amazon-Clone
+This project is a clone of the Amazon website using HTML, CSS, and JavaScript. The project includes a user interface that replicates the layout, design elements, and functionalities of the original Amazon site. Users can browse through the products. The clone also incorporates responsive design principles to ensure compatibility across different devices and screen sizes. Overall, it's a comprehensive demonstration of front-end web development skills combined with a deep understanding of e-commerce user experiences.
