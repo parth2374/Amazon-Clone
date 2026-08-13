@@ -1,0 +1,20 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "This project is a clone of the Amazon website using HTML, CSS, and JavaScript. The project includes a user interface that replicates the layout, design elements, and functionalities of the original Amazon site. Users can browse through the products. The clone also incorporates responsive design principles to ensure compatibility across different devices and screen sizes. Overall, it's a comprehensive demonstration of front-end web development skills combined with a deep understanding of e-commerce user experiences.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parth2374/Amazon-Clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parth2374/Amazon-Clone/issues"
+  },
+  "homepage": "https://github.com/parth2374/Amazon-Clone#readme"
+}
