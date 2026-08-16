@@ -1,1 +1,21 @@
-Hello World
+import React from 'react';
+import Head from 'next/head';
+
+const LandingPage = () => {
+  return (
+    <div style={{ fontFamily: 'Arial, sans-serif', textAlign: 'center', padding: '50px' }}>
+      <Head>
+        <title>Welcome to Our Landing Page</title>
+      </Head>
+      <header>
+        <h1>Welcome to Our Product</h1>
+        <p>This is a simple landing page created for the task.</p>
+      </header>
+      <main>
+        <button style={{ padding: '10px 20px', fontSize: '16px' }}>Get Started</button>
+      </main>
+    </div>
+  );
+};
+
+export default LandingPage;
