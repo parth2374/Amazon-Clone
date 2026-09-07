@@ -11,6 +11,16 @@ const LandingPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <nav className="navbar">
+        <div className="logo">MyLogo</div>
+        <ul className="nav-links">
+          <li><Link href="/">Home</Link></li>
+          <li><Link href="/about">About</Link></li>
+          <li><Link href="/services">Services</Link></li>
+          <li><Link href="/contact">Contact</Link></li>
+        </ul>
+      </nav>
+
       <header className="hero-section">
         <div className="hero-content">
           <h1>Welcome to Our Amazing Website</h1>
@@ -47,6 +57,34 @@ const LandingPage = () => {
           margin: 0;
           padding: 0;
           color: #333;
+        }
+
+        .navbar {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 20px 50px;
+          background-color: #333;
+          color: white;
+        }
+
+        .navbar .logo {
+          font-size: 1.5em;
+          font-weight: bold;
+        }
+
+        .nav-links {
+          list-style: none;
+          display: flex;
+        }
+
+        .nav-links li {
+          margin-left: 20px;
+        }
+
+        .nav-links a {
+          color: white;
+          text-decoration: none;
         }
 
         .hero-section {
