@@ -1,4 +1,6 @@
 import Head from 'next/head';
+import Navbar from '../components/Navbar';
+import '../components/Navbar.css';
 
 export default function Home() {
   return (
@@ -8,27 +10,7 @@ export default function Home() {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
       </Head>
 
-      {/* Navbar */}
-      <nav className="navbar">
-        <div className="nav-logo">
-            <div className="logo"></div>
-        </div>
-    
-        <div className="nav-search">
-            <select className="nav-option">
-                <option>All</option>
-            </select>
-            <input placeholder="Search Amazon" className="nav-box" />
-            <div className="search-icon">
-                <i className="fa-solid fa-magnifying-glass"></i>
-            </div>
-        </div>
-
-        <div className="nav-cart">
-            <i className="fa-solid fa-cart-shopping" style={{marginRight: '5px'}}></i>
-            Cart
-        </div>
-      </nav>
+      <Navbar />
 
       {/* Hero Section */}
       <div style={{
